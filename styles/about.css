@@ -1,0 +1,9 @@
+.page-container > .prof-pic{
+    padding: 20px;
+}
+
+.page-container > .prof-pic img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}

@@ -1,0 +1,61 @@
+.navigation-wrapper{
+    /* to change height later */
+    height: 100px;
+    background-color: #586D6A;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* left column */
+.navigation-wrapper > .left-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.navigation-wrapper > .left-column > .logo-nav img{
+    width: 130px;
+    margin-left: -35px;
+ }
+
+/* center column */
+.navigation-wrapper > .center-column{
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 5px;;
+width: 600px;
+}
+
+/* links-wrapper */
+.links-wrapper {
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+}
+
+.links-wrapper >.nav-link a{
+ text-decoration: none;   
+ color: white;
+transition: 0.2s;
+}
+
+.links-wrapper >.nav-link a:hover{
+/* TODO: the weird shifting of the text */
+letter-spacing: 1px;
+color: moccasin;
+}
+
+/* right column */
+.navigation-wrapper >.right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+}
+
+/* added this for now TODO */
+/* right column */
+.navigation-wrapper >.right-column h3 {
+  color: white;  
+}

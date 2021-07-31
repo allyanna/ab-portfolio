@@ -1,0 +1,19 @@
+.page-container > .grid-photos{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+align-items: center;
+grid-gap: 20px;
+
+width: 90%;
+
+/* gives it a more compact look */
+margin: 20px;
+
+
+}
+
+.page-container > .grid-photos > .g-photo img{
+width: 480px;
+
+}

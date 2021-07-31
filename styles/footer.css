@@ -1,0 +1,51 @@
+.footer{
+   background-color: #586D6A;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* todo, need to fix */
+margin-top: -4px;
+}
+
+.footer > .footer-logo > img{
+    width: 150px;
+}
+
+/* footer links to page */
+.footer .links-footer-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /* helps space everything in between */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer .links-footer-wrapper a{
+    text-decoration:none;
+    color: white;
+}
+
+.footer .links-footer-wrapper a:hover{
+ color:moccasin;
+}
+
+/* footer links to logo pages */
+.footer .links-logo-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+}
+
+.footer .links-logo-wrapper a{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.footer .links-logo-wrapper a:hover{
+    color: moccasin;
+}
+

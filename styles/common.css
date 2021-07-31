@@ -1,0 +1,29 @@
+/* common styles */
+
+body {
+    /* margin here fixes the padding around the div */
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* helpers */
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.spacer10{
+    height: 10px;
+    width: 100%;
+}
+
+.width60
+{
+    width: 100px;
+    height: 100%;
+}
